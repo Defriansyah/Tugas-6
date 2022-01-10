@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas switch case</title>
+</head>
+<body>
+    <script>
+        //pilihan jus aalpokat, jus jeruk, jus buah naga, jus mangga, jus nangka
+        var pilih = prompt('ada mau pesan minum apa ? pilihan : alpokat, jeruk, buah naga, mangga, nangka');
+        switch (pilih) {
+            case 'alpokat':
+                document.write('<h2>Pesan jus alpokat</h2>')
+            break;
+            case 'jeruk' :
+                document.write('<h2>Pesan jus jeruk </h2>')
+            break;
+            case 'buah  naga' :
+                document.write('<h2>Pesan jus buah naga</h2>')
+            break;
+            case 'mangga' :
+                document.write('<h2>Pesan jus mangga</h2>')
+            break;
+            case 'nangka' :
+                document.write('<h2>Pesan jus nangka</h2>')
+            break;
+            default:
+                document.write('<h2>Maaf saya tidak jadi memesan jus</h2>')
+            break;
+        }
+    </script>
+</body>
+</html>

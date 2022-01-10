@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas ifElse</title>
+</head>
+<body>
+    <script>
+        //jawab ya/tidak
+        var pilih = prompt('apakah anda ingin membeli buah mangga? ya/tidak');
+
+        if(pilih == 'ya'){
+            var hargaSepatu = parseInt(prompt("Berapa harga mangga itu?"))
+            var jumlahUang = parseInt(prompt("Masukan jumlah uang anda"));
+
+            if(hargaSepatu > jumlahUang){
+                document.write("<h2>saya tidak jadi membeli buah mangga</h2>");
+            }else if (hargaSepatu === jumlahUang){
+                document.write("<h2>apakah buah ini bisa dikurangi harganya</h2>");
+            }else if (hargaSepatu < jumlahUang){
+                document.write("<h2>oke saya akan membeli buah mangga yang ini</h2>");
+            };
+
+        }else{
+            document.write("<h2>Maaf sya hanya melihat lihat buah mangga saja</h2>");
+        };
+    </script>
+</body>
+</html>
